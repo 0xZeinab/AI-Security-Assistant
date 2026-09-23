@@ -6,7 +6,6 @@
 [![Ollama](https://img.shields.io/badge/Local_LLM-Ollama-black.svg?style=flat)](https://ollama.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **University Graduation Project (Core Track)**  
 > An enterprise-grade, end-to-end Retrieval-Augmented Generation (RAG) assistant purpose-built to ingest, index, and query authoritative AI Security frameworks, adversarial machine learning taxonomies, and GenAI defensive standards without hallucination.
 
 ---
@@ -450,6 +449,3 @@ python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
 # 6. In a second terminal, launch Streamlit Frontend
 streamlit run frontend/app.py
 ```
-
----
-*Developed for University Graduation Project Evaluation — Core Track.*

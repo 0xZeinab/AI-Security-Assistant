@@ -43,7 +43,7 @@ def build_notebook():
 
     # Title & Introduction
     cells.append(make_markdown_cell("""# 🛡️ TrustAI: Building an End-to-End AI Security RAG Assistant
-### Technical Graduation Project Report & Interactive Implementation
+### Technical Implementation & Evaluation Report
 **Author:** AI Engineering Candidate
 **Domain:** Artificial Intelligence Security, Adversarial Machine Learning & Threat Modeling
 **Authoritative Sources Covered:** MITRE ATLAS™ (Adversarial Threat Landscape for AI Systems), NIST AI 100-2 (Adversarial Machine Learning Taxonomy), OWASP Top 10 for Large Language Model Applications (v2025), NIST AI Risk Management Framework 1.0 (NIST AI 100-1), and EU Artificial Intelligence Act (Regulation EU 2024/1689).
