@@ -1,4 +1,4 @@
-# 🛡️ TrustAI: AI Security RAG Assistant
+# 🛡️AI Security RAG Assistant
 
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg?style=flat&logo=fastapi)](https://fastapi.tiangolo.com)
 [![ChromaDB](https://img.shields.io/badge/Vector_DB-ChromaDB-blue.svg?style=flat)](https://www.trychroma.com/)
