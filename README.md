@@ -120,7 +120,7 @@ flowchart TD
 
 ## 6. Project Directory Structure
 ```text
-Project ITI/
+AI-Security-Assistant/
 │
 ├── notebooks/
 │   └── rag_pipeline.ipynb         # Full reproducible pipeline & technical report
@@ -175,7 +175,6 @@ Project ITI/
 │   ├── build_notebook.py          # Programmatic generator for rag_pipeline.ipynb
 │   └── run_notebook.py            # Executes notebook top-to-bottom and records output
 │
-├── Day1_RAG_Lab.ipynb             # Untouched Day 1 reference notebook
 ├── .gitignore                     # Git exclusion rules
 └── README.md                      # Complete project documentation
 ```
@@ -189,8 +188,8 @@ Python 3.10, 3.11, 3.12, or 3.14 is required.
 
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/your-username/trustai-rag-assistant.git
-cd trustai-rag-assistant
+git clone https://github.com/0xZeinab/AI-Security-Assistant.git
+cd AI-Security-Assistant
 
 # Install project dependencies
 pip install -r backend/requirements.txt
@@ -240,7 +239,7 @@ python scripts/setup_data.py
 ```
 
 ### 2. Build the Persistent ChromaDB Vector Store
-Extracts, cleans, chunks, and embeds all 272 document segments into `backend/data/vector_store/`:
+Extracts, cleans, chunks, and embeds all 303 document segments into `backend/data/vector_store/`:
 ```bash
 python scripts/build_vector_store.py
 ```
@@ -448,8 +447,8 @@ To reproduce this project on a fresh machine from scratch, follow these exact co
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/your-username/trustai-rag-assistant.git
-cd trustai-rag-assistant
+git clone https://github.com/0xZeinab/AI-Security-Assistant.git
+cd AI-Security-Assistant
 
 # 2. Create virtual environment & install requirements
 python -m venv .venv
