@@ -175,6 +175,9 @@ AI-Security-Assistant/
 │   ├── build_notebook.py          # Programmatic generator for rag_pipeline.ipynb
 │   └── run_notebook.py            # Executes notebook top-to-bottom and records output
 │
+├── docs/
+│   └── ui_screenshot.png          # Web dashboard interface preview
+│
 ├── .gitignore                     # Git exclusion rules
 └── README.md                      # Complete project documentation
 ```
@@ -413,32 +416,10 @@ The pipeline was empirically evaluated against 11 AI Security questions (10 fact
 ---
 
 ## 17. UI Screenshots
-*(Placeholders for presentation slides and repository previews)*
 
-```
-+-------------------------------------------------------------------------------+
-| 🛡️ TrustAI: AI Security Assistant                                              |
-| Authoritative grounded assistant for LLM Security, MITRE ATLAS & Adversarial ML|
-+-------------------------------------------------------------------------------+
-| 🧑‍💻 What is Prompt Injection and how can it be mitigated?                     |
-|                                                                               |
-| 🛡️ Prompt Injection (OWASP LLM01) occurs when an attacker manipulates an LLM  |
-|    through crafted inputs to override its system instructions and guardrails: |
-|    • Direct Prompt Injection (Jailbreaking): Overriding system prompts directly|
-|    • Indirect Prompt Injection: Ingesting untrusted external text with embedded|
-|      malicious instructions (e.g., in retrieved web pages or PDFs).           |
-|    Recommended Mitigations: Privilege separation, dual-LLM quarantine         |
-|    architecture, input sanitization, and human-in-the-loop authorization.     |
-|                                                                               |
-|    [▼] 📚 View 3 Cited Sources (158 ms)                                       |
-|    +-------------------------------------------------------------------------+|
-|    | Source 1 | OWASP_Top_10_LLM_Guide.pdf (Page 1)  [ 67% Relevance ]        ||
-|    | "LLM01: Prompt Injection (Direct and Indirect)..."                      ||
-|    | Source 2 | MITRE_ATLAS_AI_Threat_Matrix.pdf (Page 1) [ 61% Relevance ]   ||
-|    | "AML.T0051 LLM Prompt Injection: Crafting adversarial strings..."       ||
-|    +-------------------------------------------------------------------------+|
-+-------------------------------------------------------------------------------+
-```
+![AI Security Assistant Interface](docs/ui_screenshot.png)
+
+*Figure: The TrustAI Streamlit web interface showing active system health indicators, indexed chunk count (303), local model selection (`llama3.2:3b`), and grounded technical responses with provenance citations.*
 
 ---
 
